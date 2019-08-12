@@ -14,10 +14,10 @@ This package exports a interactive function `header-tracker-toggle-header` which
 
 Currently the package supports the following project structures/filenames:
 
-  - .../src/.../name.h
-  - .../include/.../name.h
-  - .../src/.../name.c
-  - .../src/.../name.cpp
+  - `.../src/.../name.h`
+  - `.../include/.../name.h`
+  - `.../src/.../name.c`
+  - `.../src/.../name.cpp`
 
 This is also the priority order the switching function uses to determine which file to switch to.
 
