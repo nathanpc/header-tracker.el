@@ -1,9 +1,9 @@
-;;; header-tracker.el --- Easy switching between header and source files. -*- lexical-binding: t; -*-
+;;; header-tracker.el --- Easy switching between header and source files.
 
 ;; Copyright (C) 2019 Nathan Campos
 
 ;; Author: Nathan Campos <nathan@innoveworkshop.com>
-;; URL: http://github.com/nathanpc/header-tracker.el
+;; Homepage: http://github.com/nathanpc/header-tracker.el
 ;; Version: 1.0.0
 ;; Keywords: convenience, usability
 ;; Package-Requires: ((emacs "24.1"))
