@@ -32,7 +32,7 @@
 
 ;; This package exports a interactive function `header-tracker-toggle-header`
 ;; which can be binded to a key to seamlessly switch between source and header
-;; files. This can be accomplished by adding the following lines to your
+;; files.  This can be accomplished by adding the following lines to your
 ;; configuration file:
 
 ;; (add-hook 'c-mode-common-hook
@@ -44,7 +44,7 @@
 ;;; Code:
 
 (defun header-tracker-toggle-header ()
-  "Toggles between source and a header file"
+  "Toggle between source and a header file."
   (interactive)
   (setq filename (buffer-file-name))
   (setq filename (if (string-match "cp?" (file-name-extension filename))
