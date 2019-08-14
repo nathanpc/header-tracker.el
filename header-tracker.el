@@ -6,6 +6,9 @@
 ;; URL: http://github.com/nathanpc/header-tracker.el
 ;; Version: 1.0.0
 ;; Keywords: convenience, usability
+;; Package-Requires: ((emacs "24.1"))
+
+;; This file is NOT part of GNU Emacs.
 
 ;;; License:
 
