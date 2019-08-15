@@ -46,7 +46,7 @@
 (defun header-tracker-toggle-header ()
   "Toggle between source and a header file."
   (interactive)
-  (let (filename (buffer-file-name))
+  (let ((filename (buffer-file-name)))
 	(setq filename (if (string-match "cp?" (file-name-extension filename))
 					   (let ((newfile (concat (file-name-sans-extension filename) ".h")))
 						 (if (file-exists-p newfile)
