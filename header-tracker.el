@@ -43,6 +43,7 @@
 
 ;;; Code:
 
+;;;###autoload
 (defun header-tracker-toggle-header ()
   "Toggle between source and a header file."
   (interactive)
